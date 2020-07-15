@@ -133,11 +133,15 @@
         height: 100px;
         width: 100px;
         float: left;
-        transform: scale(1.4);
+        margin-left: 10px;
+
+        transform: scale(1.2);
     }
 
     .mypic:hover {
-        transform: scale(1.6);
+        transform: scale(1.2);
+        margin-top: 50px;
+        border-radius: 50%;
     }
 
     .col {
