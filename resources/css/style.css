@@ -10,18 +10,25 @@
     box-sizing: border-box;
 }
 
+::-moz-selection {
+    background: #e67e22;
+    color: #fff;
+}
+
 ::selection {
     background: #e67e22;
     color: #fff;
 }
 
-html {
+html,
+body {
     background-color: #fff;
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .clearfix::after {
@@ -122,7 +129,6 @@ h3 {
     display: inline-block;
     border-bottom: 1px solid transparent;
     width: 30px;
-    font-size: 120%;
     vertical-align: middle;
 }
 
@@ -349,7 +355,7 @@ a[data-tool-tip]:hover::before {
 /*? MEAL-IMG TEXT */
 
 .meal-photo-text h3 {
-    font-size: 115%;
+    font-size: 100%;
     font-weight: bold;
 }
 
@@ -572,73 +578,6 @@ cite img {
 /*? ---------------------------------------------- */
 /*! SIGNUP SECTION */
 /*? ---------------------------------------------- */
-
-/* .section-signup {
-    background: #f1eeee;
-}
-
-.section-signup .section-plans-box {
-    background: #fff;
-    border-radius: 5px;
-    width: 90%;
-    margin-left: 5%;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
-}
-
-.signup-header {
-    padding: 3%;
-    background-color: #fcfcfc;
-    border-bottom: 1px solid rgb(235, 229, 229);
-}
-
-.signup-header p:first-of-type {
-    font-size: 2em;
-    font-weight: 300;
-    color: #e67e22;
-}
-
-.signup-body {
-    padding: 7%;
-    background: #ffffff;
-}
-
-.signup-body p {
-    margin-bottom: 10px;
-}
-
-.signup-body .tick::before {
-    content: '\2713';
-    margin-right: 10px;
-    color: #e67e22;
-}
-
-.signup-body .wrong::before {
-    content: '\2717';
-    margin-right: 10px;
-    color: #e67e22;
-}
-
-.signup-footer {
-    text-align: center;
-    padding: 5%;
-    background: #ddd8d8;
-}
-
-.signup-body p {
-    margin-bottom: 10px;
-}
-
-.tick::before {
-    content: '\2713';
-    margin-right: 10px;
-    color: #e67e22;
-}
-
-.wrong::before {
-    content: '\2717';
-    margin-right: 10px;
-    color: #e67e22;
-} */
 
 .section-plans {
     background: #f1eeee;

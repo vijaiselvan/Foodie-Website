@@ -1,0 +1,224 @@
+/* Big tablet to 1200px  */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row {
+        padding: 0 2%;
+    }
+    .meal-photo-text {
+        font-size: 80%;
+    }
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+    section {
+        padding: 60px 0;
+    }
+
+    .mypic {
+        height: 100px;
+        width: 100px;
+        float: left;
+        transform: scale(1.6);
+    }
+
+    .mypic:hover {
+        transform: scale(1.8);
+    }
+
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    /*! Meal photo  */
+    .meal-photo-text {
+        font-size: 65%;
+    }
+
+    /*! Section steps  */
+    .steps-box {
+        margin-top: 10px;
+    }
+    .work-step {
+        margin: 7%;
+        margin-bottom: 8%;
+    }
+    .work-step:last-of-type {
+        margin-bottom: 60px;
+    }
+    .steps-box:first-child {
+        padding-right: 5%;
+    }
+    .btn-app img {
+        height: 45px;
+    }
+    .app-screen {
+        width: 50%;
+    }
+
+    /*! Section cities  */
+    .icon-small {
+        width: 20px;
+    }
+    .section-cities .box {
+        font-size: 85%;
+    }
+
+    /* !Testimonials */
+    blockquote {
+        padding: 3%;
+        font-size: 75%;
+    }
+
+    /* !Plans */
+    .plans-box {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .plans-box div {
+        /* font-size: 90%; */
+        padding: 15px;
+        border-bottom: 1px solid #f1eeee;
+    }
+
+    .plans-box div:nth-child(2) {
+        padding: 0;
+    }
+
+    /* !Contact form */
+    .contact-form {
+        width: 80%;
+    }
+
+    /*! BUTTONS */
+    .btn:link,
+    .btn:visited,
+    input[type='submit'] {
+        padding: 8px 25px;
+    }
+}
+
+/* Small phones to tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+
+    h2 {
+        font-size: 150%;
+    }
+
+    section {
+        padding: 30px 0;
+    }
+
+    .row,
+    .hero-text-box {
+        padding: 0 4%;
+    }
+
+    .mypic {
+        height: 100px;
+        width: 100px;
+        float: left;
+        transform: scale(1.4);
+    }
+
+    .mypic:hover {
+        transform: scale(1.6);
+    }
+
+    .col {
+        width: 100%;
+        margin: 0 0 2% 0;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+        text-align: center;
+    }
+
+    /*!Meals */
+    .section-meals {
+        display: none;
+    }
+
+    /* !steps */
+
+    .steps-box:first-child {
+        text-align: center;
+        padding-right: 0%;
+    }
+
+    .app-screen {
+        width: 35%;
+    }
+
+    .work-step::before {
+        position: absolute;
+        border-radius: 50%;
+        top: -0.2em;
+        left: -2.7em;
+        width: 2.1em;
+        height: 2.1em;
+    }
+
+    .btn-app:link {
+        border: 0px;
+    }
+
+    .btn-app img {
+        height: 35px;
+        width: auto;
+        margin-right: 10px;
+    }
+
+    .btn-app:first-of-type {
+        padding: 0 auto;
+    }
+
+    /*! BUTTONS */
+    .btn:link,
+    .btn:visited,
+    input[type='submit'] {
+        padding: 7px 21px;
+    }
+
+    /* ! Footer */
+    footer {
+        padding: 30px;
+    }
+
+    .footer-nav li,
+    .social-links li {
+        margin-right: 10px;
+        /* padding-bottom: 10px; */
+    }
+}
+
+/* Small phones:from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    section {
+        padding: 25px 0;
+    }
+    .contact-form {
+        width: 100%;
+    }
+}
