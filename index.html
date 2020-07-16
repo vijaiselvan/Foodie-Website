@@ -28,16 +28,23 @@
                             alt="vijai"
                             class="mypic"
                         />
+                        <img
+                            src="./resources/css/img/vijai2.jpg"
+                            alt="vijai"
+                            class="mypic-sticky"
+                        />
                     </div>
                     <ul class="main-nav">
                         <li>
-                            <a data-tool-tip="a cool tool tip" href="#"
+                            <a
+                                data-tool-tip="a cool tool tip"
+                                href="#foodDelivery"
                                 >Food Delivery</a
                             >
                         </li>
-                        <li><a href="#">How It Works</a></li>
-                        <li><a href="#">Our Cities</a></li>
-                        <li><a href="#">Signup</a></li>
+                        <li><a href="#howItWorks">How It Works</a></li>
+                        <li><a href="#ourCities">Our Cities</a></li>
+                        <li><a href="#signUp">Signup</a></li>
                     </ul>
                 </div>
             </nav>
@@ -47,12 +54,19 @@
                     <br />
                     HELLO SUPER HEALTHY MEALS.
                 </h1>
-                <a class="btn btn-full" href="#"><span>I'm Hungry</span></a>
-                <a class="btn btn-ghost" href="#">Show me more</a>
+                <a class="btn btn-full js--scroll-to-plans" href="#"
+                    ><span>I'm Hungry</span></a
+                >
+                <a class="btn btn-ghost js--scroll-to-features" href="#"
+                    >Show me more</a
+                >
             </div>
         </header>
 
-        <section class="section-features">
+        <section
+            class="section-features js--section-features"
+            id="foodDelivery"
+        >
             <div class="row">
                 <h2>Get food fast &mdash; not fast food.</h2>
                 <p class="long-copy">
@@ -241,7 +255,7 @@
             </ul>
         </section>
 
-        <section class="section-steps">
+        <section class="section-steps" id="howItWorks">
             <div class="row">
                 <h2>How it works &mdash; Simple as 1, 2, 3</h2>
             </div>
@@ -288,7 +302,7 @@
             </div>
         </section>
 
-        <section class="section-cities">
+        <section class="section-cities" id="ourCities">
             <div class="row">
                 <h2>We're currently in these cities</h2>
             </div>
@@ -408,7 +422,7 @@
             </div>
         </section>
 
-        <section class="section-plans">
+        <section class="section-plans js--section-plans" id="signUp">
             <div class="row">
                 <h2>Start eating healthy today</h2>
             </div>
@@ -612,6 +626,7 @@
             </div>
         </footer>
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -620,5 +635,7 @@
             integrity="sha512-0mXreXYrXoy9laHoypsAOjuSCqh57vY+kIdE46k8Hw0yRY1EhJyHWUEAqfHOTrPkBpsbO39/ZPw5HITv8mLVOA=="
             crossorigin="anonymous"
         ></script>
+        <script src="./vendors/js/imakewebthings-waypoints-34d9f6d/lib/jquery.waypoints.min.js"></script>
+        <script src="./resources/js/script.js"></script>
     </body>
 </html>
