@@ -91,9 +91,9 @@ $(document).ready(function () {
         }
     );
 
-    // var waypoints = $('#options-only').waypoint({
-    //     handler: function(direction) {
-    //       notify(this.element.id + ' hit')
-    //     }
-    //   })
+    // Mobile Nav
+    $('.js--nav-icon').click(function () {
+        var nav = $('.js--main-nav');
+        nav.slideToggle(200);
+    });
 });

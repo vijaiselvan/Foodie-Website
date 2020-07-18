@@ -310,6 +310,20 @@ a[data-tool-tip]:hover::before {
     color: #fff;
 }
 
+/* Mobile Nav */
+
+.mobile-nav-icon {
+    float: right;
+    cursor: pointer;
+    margin-top: 30px;
+    display: none;
+}
+
+.mobile-nav-icon ion-icon {
+    font-size: 200%;
+    color: white;
+}
+
 /* Sticky navigation  */
 .sticky {
     position: fixed;
