@@ -41,11 +41,13 @@ Or [download the ZIP](https://github.com/vijaiselvan/Foodie-Website/archive/refs
 Open `index.html` in your browser to view the website.
 
 ## 📁 Project Structure
+```
 Foodie-Website/
 ├── index.html # Main website HTML file
 ├── style.css # Main stylesheet
 ├── images/ # Images used in the site
 └── README.md # Project documentation (this file)
+```
 
 
 ## ✏️ Customization
