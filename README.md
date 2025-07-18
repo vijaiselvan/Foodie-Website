@@ -31,8 +31,10 @@ Follow these steps to set up and run the project locally.
 ### Installation
 
 Clone the repository:
+```
 git clone https://github.com/vijaiselvan/Foodie-Website.git
 cd Foodie-Website
+```
 
 Or [download the ZIP](https://github.com/vijaiselvan/Foodie-Website/archive/refs/heads/master.zip) and extract it.
 
